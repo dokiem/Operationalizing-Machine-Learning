@@ -38,7 +38,7 @@ To enable logging for a deployment, we can use python with azureml-core to call 
 
 5. Swagger Documentation
 
-To see swagger documentation, we can get swagger.json file and create a new swagger api server to explain the json file
+We can get swagger.json file and create a new swagger api server to see the explaination
 
 <img align="center" width="700" height="300" src="https://github.com/dokiem/Operationalizing-Machine-Learning/blob/main/images/7.1.png">
 
@@ -52,7 +52,7 @@ In order to consume the service endpoint, we can use python to call the endpoint
 
 7. Create and publish a pipeline
 
-We create a pipeline to train the csv data and see the result of trainning progressing
+We create a pipeline to train the data and see the trainning progressing
 
 <img align="center" width="700" height="300" src="https://github.com/dokiem/Operationalizing-Machine-Learning/blob/main/images/9.1.png">
 
@@ -70,4 +70,4 @@ We create a pipeline to train the csv data and see the result of trainning progr
 
 ## Screen Recording
 
-You can watch the demo video [here](https://github.com/dokiem/Operationalizing-Machine-Learning/blob/main/video/kiemdv1-demostration.mkv).
+You can watch the demo video [here](https://youtu.be/czj5s-_Upik).
