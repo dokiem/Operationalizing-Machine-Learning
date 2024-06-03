@@ -1,10 +1,10 @@
 # Operationalizing Machine Learning
 
-In this project, we will work with Bank Makerting data and use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. Additionally, we will also create, publish, and consume a pipeline. In the end, we will demonstrate all of my work by creating a README file and a screencast video
+In this project, we will work with Bank Marketing data and use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. Additionally, we will also create, publish, and consume a pipeline. In the end, we will demonstrate all of my work by creating a README file and a screencast video
 
 ## Architectural Diagram
 
-This is a architectural diagram that shows main steps, including authentication, automated ML experiment, deploy the best model, enable logging, swagger documentation, consume model endpoints, create and publish a pipeline and documentation.
+This architectural diagram shows the main steps, including authentication, automated ML experiment, deploying the best model, enabling logging, swagger documentation, consuming model endpoints, creating and publishing a pipeline and documentation.
 
 <img align="center" width="700" height="300" src="https://github.com/dokiem/Operationalizing-Machine-Learning/blob/main/images/Architecture-Diagram.png">
 
@@ -12,7 +12,7 @@ This is a architectural diagram that shows main steps, including authentication,
 
 1. Authentication
 
-In this step, we need to practise with authentication from my local with Azure machine learning by install Azure CLI and do the command az login. We also can test creating Service Principal account and associate it with specific workspace.
+In this step, we need to practice authentication from my local with Azure machine learning by installing Azure CLI and doing the command az login. We also can test creating a Service Principal account and associate it with a specific workspace.
 
 2. Automated ML Experiment
 
@@ -30,7 +30,7 @@ We create a deployment for the best model and get endpoint, authentication info 
 
 4. Enable logging
 
-To enable logging for a deployment, we can use python with azureml-core to call the endpoint service and update configuration. However, I faced problem with the command, you can see in the picture below. Besides that, you can see logs getting from the service.
+To enable logging for deployment, we can use Python with azure ml-core to call the endpoint service and update configuration. However, I faced a problem with the command, as you can see in the picture below. Besides that, you can see logs getting from the service.
 
 <img align="center" width="700" height="300" src="https://github.com/dokiem/Operationalizing-Machine-Learning/blob/main/images/6.1.png">
 
@@ -38,7 +38,7 @@ To enable logging for a deployment, we can use python with azureml-core to call 
 
 5. Swagger Documentation
 
-We can get swagger.json file and create a new swagger api server to see the explaination
+We can get swagger.json file and create a new swagger API server to see the explanation
 
 <img align="center" width="700" height="300" src="https://github.com/dokiem/Operationalizing-Machine-Learning/blob/main/images/7.1.png">
 
@@ -46,13 +46,13 @@ We can get swagger.json file and create a new swagger api server to see the expl
 
 6. Consume model endpoints
 
-In order to consume the service endpoint, we can use python to call the endpoint api with key to get the result
+In order to consume the service endpoint, we can use python to call the endpoint API with key to get the result
 
 <img align="center" width="700" height="300" src="https://github.com/dokiem/Operationalizing-Machine-Learning/blob/main/images/8.1.png">
 
 7. Create and publish a pipeline
 
-We create a pipeline to train the data and see the trainning progressing
+We create a pipeline to train the data and see the training progressing
 
 <img align="center" width="700" height="300" src="https://github.com/dokiem/Operationalizing-Machine-Learning/blob/main/images/9.1.png">
 
