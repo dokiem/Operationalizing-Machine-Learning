@@ -1,6 +1,6 @@
 # Operationalizing Machine Learning
 
-In this project, we will work with Bank Marketing data and use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. Additionally, we will also create, publish, and consume a pipeline. In the end, we will demonstrate all of my work by creating a README file and a screencast video
+In this project, we will work with Bank Marketing data and use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. Additionally, we will also create, publish, and consume a pipeline.
 
 ## Architectural Diagram
 
