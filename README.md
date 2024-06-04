@@ -1,12 +1,20 @@
 # Operationalizing Machine Learning
 
-In this project, we will work with Bank Marketing data and use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. Additionally, we will also create, publish, and consume a pipeline.
+The project is about the bank marketing campaign with input data getting by the link: https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv. 
+I trained the model using AutoML, then deploy the best model that I got it. After finishing deployment, I could comsume the model using the REST endpoint with API key. In the other way, I ran the notebook file using pipeline SDK to call AutoML, saved best model result, tested the model, published pipeline endpoint to recall it.
 
 ## Architectural Diagram
 
 This architectural diagram shows the main steps, including authentication, automated ML experiment, deploying the best model, enabling logging, swagger documentation, consuming model endpoints, creating and publishing a pipeline and documentation.
 
 <img align="center" width="800" src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/Architecture-Diagram.png">
+
+## Future works
+
+I see I can improve the project by some ways:
+1. Run the pipeline in parallel
+2. Balance the input datasets by using some algorithms
+3. Try to train AutoML with Deep Learning
 
 ## Key Steps
 
