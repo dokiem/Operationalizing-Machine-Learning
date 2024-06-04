@@ -11,7 +11,7 @@ This architectural diagram shows the main steps, including authentication, autom
 
 ## Future works
 
-I see I can improve the project by some ways:
+After running, testing and see the result, I can improve the project by some ways:
 1. Run the pipeline in parallel
 2. Balance the input datasets by using some algorithms
 3. Try to train AutoML with Deep Learning
