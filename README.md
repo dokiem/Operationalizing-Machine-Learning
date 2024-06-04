@@ -38,9 +38,9 @@ We create a deployment for the best model and get endpoint, authentication info 
 
 4. Enable logging
 
-To enable logging for deployment, we can use Python with azure ml-core to call the endpoint service and update configuration. However, I faced a problem with the command, as you can see in the picture below. Besides that, you can see logs getting from the service.
+To enable logging for deployment, we can use Python with azure ml-core to call the endpoint service and update configuration. Besides that, you can see logs getting from the service.
 
-<img align="center" width="800" src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/6.1.png">
+<img align="center" width="800" src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/6.1.1.png">
 
 <img align="center" width="800" src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/6.2.png">
 
@@ -64,7 +64,7 @@ We create a pipeline to train the data and see the training progressing
 
 <img align="center" width="800"  src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/9.1.png">
 
-<img align="center" width="800"  src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/9.2.png">
+<img align="center" width="800"  src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/9.2.1.png">
 
 <img align="center" width="800"  src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/9.3.png">
 
