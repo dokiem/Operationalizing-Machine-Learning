@@ -38,7 +38,7 @@ We create a deployment for the best model and get endpoint, authentication info 
 
 4. Enable logging
 
-To enable logging for deployment, we can use Python with azure ml-core to call the endpoint service and update configuration. Besides that, you can see logs getting from the service.
+To enable logging for deployment, we can use Python with azure ml-core to call the endpoint service and update application insights. Besides that, you can see logs getting from the service.
 
 <img align="center" width="800" src="https://github.com/dokiem/OperationalizingMachineLearning/blob/main/images/6.1.1.png">
 
